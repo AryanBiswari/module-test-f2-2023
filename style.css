@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+}
+.image_size {
+    height: 14rem;
+    width: 14rem;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.form_submit{
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+input{
+    width: 20%;
+    height: 2rem;
+}
+button{
+    width: 5rem;
+    height: 2rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.data_display{
+    display: none; 
+    margin-left: 8rem;
+}
+.img-dice{
+    width: 15rem;
+    height: 15rem;
+}
+.score-display{
+    font-size: 20px;
+    margin-left: 4rem;
+}
+.coupon-code{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+.congrats-img{
+    display: none;
+    margin-left: 30rem;
+}

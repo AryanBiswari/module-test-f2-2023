@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Module Test By Aryan Biswari</title>
+</head>
+
+<body>
+    <h1 class="heading">Image Gallery</h1>
+    <div class="gallery">
+        <img class="image_size" src="images/1st_image.jpg" id="image1">
+        <img class="image_size" src="images/2nd_image.jpg" id="image2">
+        <img class="image_size" src="images/3rd_image.jfif" id="image3">
+        <img class="image_size" src="images/4th_image.jfif" id="image4" style="pointer-events: none;">
+
+    </div>
+    <div class="form_submit">
+        <form id="form" style="display: none;">
+            <input type="text" id="name" placeholder="Name">
+            <br>
+            <br>
+            <input type="email" id="email" placeholder="Email">
+            <br>
+            <br>
+            <input type="text" id="username" placeholder="Username">
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div id="display" class="data_display"></div>
+
+    <div id="dice" style="display: none;">
+        <img src="images/dice_image.jpg" id="rollDice" class="img-dice">
+        <div id="displayNumber" class="score-display"></div>
+    </div>
+
+    <div id="coupon" style="display: none;">
+        <p id="displayCoupon" class="coupon-code"></p>
+        <img src="images/congrats.jpg" id="congratsImage" class="congrats-img">
+    </div>
+
+    <p id="badLuck" style="display: none;">Bad luck</p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
